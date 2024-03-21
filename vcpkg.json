@@ -1,0 +1,23 @@
+{
+    "name": "doge",
+    "version": "3.3.8",
+    "description": "Dungeon Online Game Engine",
+    "homepage": "https://www.glfw.org/",
+  "dependencies": [
+    "bext-sml",
+    "bullet3",
+    "cereal",
+    "cpp-httplib",
+    "enet",
+    "entt",
+    "imgui",
+    "jsoncpp",
+    "libgit2",
+    "luajit",
+    "opengl",
+    "recastnavigation",
+    "sdl2",
+    "uwebsockets",
+    "assimp"
+  ]
+}
