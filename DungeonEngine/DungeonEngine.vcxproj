@@ -261,11 +261,15 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Client\GameClient.cpp" />
+    <ClCompile Include="Core\DungeonCore.cpp" />
     <ClCompile Include="DungeonEngine.cpp" />
-    <ClCompile Include="GameEditor.cpp" />
+    <ClCompile Include="Editor\GameEditor.cpp" />
     <ClCompile Include="Server\GameServer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Client\GameClient.h" />
+    <ClInclude Include="Core\DungeonCore.h" />
     <ClInclude Include="Editor\GameEditor.h" />
     <ClInclude Include="Server\GameServer.h" />
   </ItemGroup>

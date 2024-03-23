@@ -107,7 +107,6 @@ vcpkg-manifest-install.log
 
 ## Manifest Mode
 vcpkg_installed/
-vcpkg/
 vcpkg-configuration.json
 
 ### VisualStudioCode ###

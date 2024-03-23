@@ -1,23 +1,35 @@
 {
-    "name": "doge",
-    "version": "3.3.8",
-    "description": "Dungeon Online Game Engine",
-    "homepage": "https://www.glfw.org/",
+  "name": "doge",
+  "version": "3.3.8",
+  "description": "Dungeon Online Game Engine",
+  "homepage": "https://www.glfw.org/",
   "dependencies": [
+    "assimp",
     "bext-sml",
     "bullet3",
     "cereal",
     "cpp-httplib",
     "enet",
     "entt",
+    "glm",
     "imgui",
     "jsoncpp",
     "libgit2",
     "luajit",
+    "numcpp",
     "opengl",
     "recastnavigation",
     "sdl2",
+    "sdl2-image",
     "uwebsockets",
-    "assimp"
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    "glew"
   ]
 }
